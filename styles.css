@@ -73,6 +73,8 @@ h1 {
 .greeting-account-right {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .header-buttons {
@@ -115,11 +117,13 @@ h1 {
 .card {
     display: flex;
     flex-direction: column;
-    border: 8px;
+    border: 4px;
     padding: 10px;
     border-radius: 15px;
     margin: 15px;
     background-color: white;
+    border-left-color: #0087ff;
+    border-style: solid;
 }
 
 .card-icons {
@@ -136,6 +140,22 @@ h1 {
 .trending {
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+}
+
+.trending-card {
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    background: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin-right: 10px;
+}
+
+.trending-user {
+    display: flex;
+    flex-direction: row;
 }
 
 .dashboard-links {
