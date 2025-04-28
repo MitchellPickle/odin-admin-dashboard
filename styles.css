@@ -8,8 +8,17 @@
     margin: 0;
 }
 
+li {
+    margin-top: 10px;
+    margin-right: 8px;
+}
+
 h1 {
     text-align: center;
+}
+
+h2 {
+    margin-left: 5px;
 }
 
 .main-grid {
@@ -118,6 +127,7 @@ h1 {
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     border: 4px;
     padding: 10px;
     border-radius: 15px;
@@ -146,10 +156,12 @@ h1 {
     background-color: white;
     padding: 8px;
     margin-right: 10px;
+    margin-bottom: 15px;
 }
 
 .announcement {
     border-bottom: 2px solid grey;
+    padding-bottom: 12px;
 }
 
 .trending {
@@ -172,6 +184,7 @@ h1 {
 .trending-user {
     display: flex;
     flex-direction: row;
+    margin-bottom: 8px;
 }
 
 .dashboard-links {
