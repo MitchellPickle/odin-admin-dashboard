@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Roboto';
-    src: url(Fonts/Roboto-VariableFont_wdth\,wght.ttf);
+    src: url(../Fonts/Roboto-VariableFont_wdth\,wght.ttf);
 }
 
 * {
@@ -25,11 +25,11 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 5fr;
     grid-template-rows: 1fr 3fr;
-    height: 100%;
+    height: 100vh;
 }
 
 .dashboard {
-    background-color: #0087ff;
+    background-color: #3d0697;
     color: white;
     grid-row: 1 / 3;
     grid-column: 1 / 2;
@@ -54,7 +54,7 @@ h2 {
 .search-bar input {
     border-radius: 10px;
     width: 50%;
-    height: 20%;
+    height: 35%;
     font-size: 18px;
     background: #e1f8ff;
 }
@@ -95,7 +95,7 @@ h2 {
 }
 
 .button {
-    background: #0087ff;
+    background: #3d0697;
     border-radius: 35px;
     color: white;
     font-size: 16px;
@@ -133,7 +133,7 @@ h2 {
     border-radius: 15px;
     margin: 15px;
     background-color: white;
-    border-left-color: #0087ff;
+    border-left-color: #3d0697;
     border-style: solid;
 }
 
@@ -188,8 +188,7 @@ h2 {
 }
 
 .dashboard-links {
-    display: flex;
-    flex-direction: column;
+    color: white;
 }
 
 .dashboard-links, ul {
